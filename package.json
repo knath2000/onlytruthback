@@ -1,0 +1,31 @@
+{
+  "name": "onlytruth-backend",
+  "version": "1.0.0",
+  "description": "OnlyTruth API service using Bun + Elysia.js",
+  "scripts": {
+    "dev": "bun run src/index.ts",
+    "start": "bun run src/index.ts",
+    "build": "bun build src/index.ts --outdir dist",
+    "test": "echo \"No tests yet\""
+  },
+  "dependencies": {
+    "elysia": "latest",
+    "@elysiajs/swagger": "latest",
+    "@elysiajs/cors": "latest",
+    "@elysiajs/websocket": "latest",
+    "@elysiajs/static": "latest",
+    "prisma": "^5.7.0",
+    "@prisma/client": "^5.7.0",
+    "bullmq": "^4.15.0",
+    "ioredis": "^5.3.2",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^9.0.1",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "@types/uuid": "^9.0.7",
+    "@types/multer": "^1.4.11"
+  },
+  "type": "module"
+} 
